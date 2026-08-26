@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "scripts": {"test": "node scripts/validate.mjs"}
+  "scripts": {
+    "export:home-catalog": "node scripts/export-home-catalog.mjs",
+    "merge:domain-seeds": "node scripts/merge-domain-seeds.mjs",
+    "test": "node scripts/validate.mjs"
+  }
 }
-

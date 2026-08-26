@@ -20,13 +20,161 @@
     "publicationDirection": "restricted-to-public-one-way-with-human-approval"
   },
   "repositories": [
-    {"name": ".github", "role": "organization-policy", "visibility": "public"},
-    {"name": "qed-artifacts.github.io", "role": "public-home", "visibility": "public"},
-    {"name": "qed-public-platform", "role": "shared-renderer-and-workflows", "visibility": "public"},
-    {"name": "qed-public-registry", "role": "public-discovery-and-state", "visibility": "public"},
-    {"name": "higher-education", "role": "domain-configuration", "visibility": "public"},
-    {"name": "quality-of-life", "role": "domain-configuration", "visibility": "public"},
-    {"name": "healthcare", "role": "domain-configuration", "visibility": "public"}
+    {
+      "name": ".github",
+      "role": "organization-policy",
+      "visibility": "public"
+    },
+    {
+      "name": "qed-artifacts.github.io",
+      "role": "public-home",
+      "visibility": "public"
+    },
+    {
+      "name": "qed-public-platform",
+      "role": "shared-renderer-and-workflows",
+      "visibility": "public"
+    },
+    {
+      "name": "qed-public-registry",
+      "role": "public-discovery-and-state",
+      "visibility": "public"
+    },
+    {
+      "name": "higher-education",
+      "role": "domain-configuration",
+      "visibility": "public"
+    },
+    {
+      "name": "quality-of-life",
+      "role": "domain-configuration",
+      "visibility": "public"
+    },
+    {
+      "name": "healthcare",
+      "role": "domain-configuration",
+      "visibility": "public"
+    },
+    {
+      "name": "aesthetics-and-fine-arts",
+      "role": "domain-configuration",
+      "visibility": "public"
+    },
+    {
+      "name": "ai-and-machine-learning",
+      "role": "domain-configuration",
+      "visibility": "public"
+    },
+    {
+      "name": "axiology",
+      "role": "domain-configuration",
+      "visibility": "public"
+    },
+    {
+      "name": "construction",
+      "role": "domain-configuration",
+      "visibility": "public"
+    },
+    {
+      "name": "data-and-information",
+      "role": "domain-configuration",
+      "visibility": "public"
+    },
+    {
+      "name": "economics",
+      "role": "domain-configuration",
+      "visibility": "public"
+    },
+    {
+      "name": "environment",
+      "role": "domain-configuration",
+      "visibility": "public"
+    },
+    {
+      "name": "evidence-and-research",
+      "role": "domain-configuration",
+      "visibility": "public"
+    },
+    {
+      "name": "food",
+      "role": "domain-configuration",
+      "visibility": "public"
+    },
+    {
+      "name": "journalism-and-media",
+      "role": "domain-configuration",
+      "visibility": "public"
+    },
+    {
+      "name": "k12-education",
+      "role": "domain-configuration",
+      "visibility": "public"
+    },
+    {
+      "name": "legal-and-jurisprudence",
+      "role": "domain-configuration",
+      "visibility": "public"
+    },
+    {
+      "name": "pharmaceuticals",
+      "role": "domain-configuration",
+      "visibility": "public"
+    },
+    {
+      "name": "psychometrics-and-metrology",
+      "role": "domain-configuration",
+      "visibility": "public"
+    },
+    {
+      "name": "public-administration-and-government",
+      "role": "domain-configuration",
+      "visibility": "public"
+    },
+    {
+      "name": "quality-management",
+      "role": "domain-configuration",
+      "visibility": "public"
+    },
+    {
+      "name": "reliability-engineering",
+      "role": "domain-configuration",
+      "visibility": "public"
+    },
+    {
+      "name": "rhetoric-and-communication",
+      "role": "domain-configuration",
+      "visibility": "public"
+    },
+    {
+      "name": "sensory-science",
+      "role": "domain-configuration",
+      "visibility": "public"
+    },
+    {
+      "name": "service-and-marketing",
+      "role": "domain-configuration",
+      "visibility": "public"
+    },
+    {
+      "name": "social-work-and-human-services",
+      "role": "domain-configuration",
+      "visibility": "public"
+    },
+    {
+      "name": "software",
+      "role": "domain-configuration",
+      "visibility": "public"
+    },
+    {
+      "name": "federal-laws-and-regulations",
+      "role": "domain-configuration",
+      "visibility": "public"
+    },
+    {
+      "name": "standards-and-benchmarks",
+      "role": "domain-configuration",
+      "visibility": "public"
+    }
   ],
   "accessModel": {
     "currentInternalUsers": "board-only",
@@ -34,4 +182,3 @@
     "futureVolunteerAccess": "separate-controlled-workspaces-no-inherited-confidential-access"
   }
 }
-

@@ -9,7 +9,18 @@
       "scopeStatus": "provisional",
       "site": "https://qedartifacts.org/higher-education/",
       "repository": "https://github.com/qed-artifacts/higher-education",
-      "appCatalog": "https://qedartifacts.org/higher-education/apps/catalog.json"
+      "appCatalog": "https://qedartifacts.org/higher-education/apps/catalog.json",
+      "portalNumber": "01",
+      "summary": "Learning, institutions, systems, outcomes, and public value.",
+      "dimensions": [
+        "Learning and formation",
+        "Institutions and systems",
+        "Outcomes and public value"
+      ],
+      "sourceSignals": [
+        "Academic_Higher Education"
+      ],
+      "stage": "foundation"
     },
     {
       "id": "qed-domain-quality-of-life",
@@ -18,7 +29,18 @@
       "scopeStatus": "provisional",
       "site": "https://qedartifacts.org/quality-of-life/",
       "repository": "https://github.com/qed-artifacts/quality-of-life",
-      "appCatalog": "https://qedartifacts.org/quality-of-life/apps/catalog.json"
+      "appCatalog": "https://qedartifacts.org/quality-of-life/apps/catalog.json",
+      "portalNumber": "02",
+      "summary": "Conditions, capabilities, lived experience, measures, and consequences.",
+      "dimensions": [
+        "Lived experience",
+        "Conditions and capabilities",
+        "Measurement and consequences"
+      ],
+      "sourceSignals": [
+        "Academic_Quality of Life"
+      ],
+      "stage": "foundation"
     },
     {
       "id": "qed-domain-healthcare",
@@ -27,8 +49,511 @@
       "scopeStatus": "provisional",
       "site": "https://qedartifacts.org/healthcare/",
       "repository": "https://github.com/qed-artifacts/healthcare",
-      "appCatalog": "https://qedartifacts.org/healthcare/apps/catalog.json"
+      "appCatalog": "https://qedartifacts.org/healthcare/apps/catalog.json",
+      "portalNumber": "03",
+      "summary": "People, care, implementation, outcomes, systems, and stewardship.",
+      "dimensions": [
+        "People and care",
+        "Evidence and implementation",
+        "Outcomes and stewardship"
+      ],
+      "sourceSignals": [
+        "Academic_Healthcare"
+      ],
+      "stage": "foundation"
+    },
+    {
+      "id": "qed-domain-aesthetics-and-fine-arts",
+      "slug": "aesthetics-and-fine-arts",
+      "portalNumber": "04",
+      "name": "Aesthetics and the Fine Arts",
+      "summary": "Aesthetic value, experience, interpretation, creation, institutions, and publics.",
+      "dimensions": [
+        "Experience and value",
+        "Creation and interpretation",
+        "Institutions and publics"
+      ],
+      "sourceSignals": [
+        "Academic_Aesthetics and the Fine Arts"
+      ],
+      "scopeStatus": "provisional",
+      "stage": "seed",
+      "site": "https://qedartifacts.org/aesthetics-and-fine-arts/",
+      "repository": "https://github.com/qed-artifacts/aesthetics-and-fine-arts",
+      "appCatalog": "https://qedartifacts.org/aesthetics-and-fine-arts/apps/catalog.json"
+    },
+    {
+      "id": "qed-domain-ai-and-machine-learning",
+      "slug": "ai-and-machine-learning",
+      "portalNumber": "05",
+      "name": "AI and Machine Learning",
+      "summary": "Data, models, human judgment, validation, impacts, and governance.",
+      "dimensions": [
+        "Data and models",
+        "Human judgment and validation",
+        "Impacts and governance"
+      ],
+      "sourceSignals": [
+        "Academic_AI and Machine Learning"
+      ],
+      "scopeStatus": "provisional",
+      "stage": "seed",
+      "site": "https://qedartifacts.org/ai-and-machine-learning/",
+      "repository": "https://github.com/qed-artifacts/ai-and-machine-learning",
+      "appCatalog": "https://qedartifacts.org/ai-and-machine-learning/apps/catalog.json"
+    },
+    {
+      "id": "qed-domain-axiology",
+      "slug": "axiology",
+      "portalNumber": "06",
+      "name": "Axiology",
+      "summary": "Values, valuation, conflict, commensurability, practice, and consequences.",
+      "dimensions": [
+        "Values and valuation",
+        "Conflict and commensurability",
+        "Practice and consequences"
+      ],
+      "sourceSignals": [
+        "Academic_Axiology"
+      ],
+      "scopeStatus": "provisional",
+      "stage": "seed",
+      "site": "https://qedartifacts.org/axiology/",
+      "repository": "https://github.com/qed-artifacts/axiology",
+      "appCatalog": "https://qedartifacts.org/axiology/apps/catalog.json"
+    },
+    {
+      "id": "qed-domain-construction",
+      "slug": "construction",
+      "portalNumber": "07",
+      "name": "Construction",
+      "summary": "Requirements, design, delivery, safety, reliability, and lifecycle value.",
+      "dimensions": [
+        "Requirements and design",
+        "Delivery and reliability",
+        "Safety and lifecycle"
+      ],
+      "sourceSignals": [
+        "Academic_Construction"
+      ],
+      "scopeStatus": "provisional",
+      "stage": "seed",
+      "site": "https://qedartifacts.org/construction/",
+      "repository": "https://github.com/qed-artifacts/construction",
+      "appCatalog": "https://qedartifacts.org/construction/apps/catalog.json"
+    },
+    {
+      "id": "qed-domain-data-and-information",
+      "slug": "data-and-information",
+      "portalNumber": "08",
+      "name": "Data and Information",
+      "summary": "Representation, quality, provenance, governance, use, and decision consequences.",
+      "dimensions": [
+        "Representation and meaning",
+        "Quality and provenance",
+        "Governance and use"
+      ],
+      "sourceSignals": [
+        "Academic_Data and Information"
+      ],
+      "scopeStatus": "provisional",
+      "stage": "seed",
+      "site": "https://qedartifacts.org/data-and-information/",
+      "repository": "https://github.com/qed-artifacts/data-and-information",
+      "appCatalog": "https://qedartifacts.org/data-and-information/apps/catalog.json"
+    },
+    {
+      "id": "qed-domain-economics",
+      "slug": "economics",
+      "portalNumber": "09",
+      "name": "Economics",
+      "summary": "Value, incentives, distribution, institutions, evidence, and welfare consequences.",
+      "dimensions": [
+        "Value and incentives",
+        "Institutions and distribution",
+        "Evidence and welfare"
+      ],
+      "sourceSignals": [
+        "Academic_Economics"
+      ],
+      "scopeStatus": "provisional",
+      "stage": "seed",
+      "site": "https://qedartifacts.org/economics/",
+      "repository": "https://github.com/qed-artifacts/economics",
+      "appCatalog": "https://qedartifacts.org/economics/apps/catalog.json"
+    },
+    {
+      "id": "qed-domain-environment",
+      "slug": "environment",
+      "portalNumber": "10",
+      "name": "Environment",
+      "summary": "Ecological conditions, human systems, stewardship, resilience, and intergenerational effects.",
+      "dimensions": [
+        "Ecological conditions",
+        "Human systems and stewardship",
+        "Resilience and future effects"
+      ],
+      "sourceSignals": [
+        "Academic_Environment"
+      ],
+      "scopeStatus": "provisional",
+      "stage": "seed",
+      "site": "https://qedartifacts.org/environment/",
+      "repository": "https://github.com/qed-artifacts/environment",
+      "appCatalog": "https://qedartifacts.org/environment/apps/catalog.json"
+    },
+    {
+      "id": "qed-domain-evidence-and-research",
+      "slug": "evidence-and-research",
+      "portalNumber": "11",
+      "name": "Evidence and Research",
+      "summary": "Inquiry, methods, credibility, synthesis, uncertainty, and responsible use.",
+      "dimensions": [
+        "Inquiry and methods",
+        "Credibility and synthesis",
+        "Uncertainty and use"
+      ],
+      "sourceSignals": [
+        "Academic_Evidence and Research"
+      ],
+      "scopeStatus": "provisional",
+      "stage": "seed",
+      "site": "https://qedartifacts.org/evidence-and-research/",
+      "repository": "https://github.com/qed-artifacts/evidence-and-research",
+      "appCatalog": "https://qedartifacts.org/evidence-and-research/apps/catalog.json"
+    },
+    {
+      "id": "qed-domain-food",
+      "slug": "food",
+      "portalNumber": "12",
+      "name": "Food",
+      "summary": "Production, products, safety, culture, nutrition, experience, and food systems.",
+      "dimensions": [
+        "Production and products",
+        "Safety and nutrition",
+        "Culture, experience, and systems"
+      ],
+      "sourceSignals": [
+        "Academic_Food"
+      ],
+      "scopeStatus": "provisional",
+      "stage": "seed",
+      "site": "https://qedartifacts.org/food/",
+      "repository": "https://github.com/qed-artifacts/food",
+      "appCatalog": "https://qedartifacts.org/food/apps/catalog.json"
+    },
+    {
+      "id": "qed-domain-journalism-and-media",
+      "slug": "journalism-and-media",
+      "portalNumber": "13",
+      "name": "Journalism and Media",
+      "summary": "Information practices, representation, credibility, institutions, audiences, and public effects.",
+      "dimensions": [
+        "Information and representation",
+        "Credibility and institutions",
+        "Audiences and public effects"
+      ],
+      "sourceSignals": [
+        "Academic_Journalism and Media"
+      ],
+      "scopeStatus": "provisional",
+      "stage": "seed",
+      "site": "https://qedartifacts.org/journalism-and-media/",
+      "repository": "https://github.com/qed-artifacts/journalism-and-media",
+      "appCatalog": "https://qedartifacts.org/journalism-and-media/apps/catalog.json"
+    },
+    {
+      "id": "qed-domain-k12-education",
+      "slug": "k12-education",
+      "portalNumber": "14",
+      "name": "K-12 Education",
+      "summary": "Learning, development, schools, systems, equity, outcomes, and public purpose.",
+      "dimensions": [
+        "Learning and development",
+        "Schools and systems",
+        "Equity, outcomes, and public purpose"
+      ],
+      "sourceSignals": [
+        "Academic_K-12 Education"
+      ],
+      "scopeStatus": "provisional",
+      "stage": "seed",
+      "site": "https://qedartifacts.org/k12-education/",
+      "repository": "https://github.com/qed-artifacts/k12-education",
+      "appCatalog": "https://qedartifacts.org/k12-education/apps/catalog.json"
+    },
+    {
+      "id": "qed-domain-legal-and-jurisprudence",
+      "slug": "legal-and-jurisprudence",
+      "portalNumber": "15",
+      "name": "Legal and Jurisprudence",
+      "summary": "Authority, interpretation, procedure, rights, institutions, reasoning, and consequences.",
+      "dimensions": [
+        "Authority and interpretation",
+        "Procedure and institutions",
+        "Rights, reasoning, and consequences"
+      ],
+      "sourceSignals": [
+        "Academic_Legal and Jurisprudence"
+      ],
+      "scopeStatus": "provisional",
+      "stage": "seed",
+      "site": "https://qedartifacts.org/legal-and-jurisprudence/",
+      "repository": "https://github.com/qed-artifacts/legal-and-jurisprudence",
+      "appCatalog": "https://qedartifacts.org/legal-and-jurisprudence/apps/catalog.json"
+    },
+    {
+      "id": "qed-domain-pharmaceuticals",
+      "slug": "pharmaceuticals",
+      "portalNumber": "16",
+      "name": "Pharmaceuticals",
+      "summary": "Discovery, development, manufacturing, regulation, access, use, and outcomes.",
+      "dimensions": [
+        "Discovery and development",
+        "Manufacturing and regulation",
+        "Access, use, and outcomes"
+      ],
+      "sourceSignals": [
+        "Academic_Pharmaceuticals"
+      ],
+      "scopeStatus": "provisional",
+      "stage": "seed",
+      "site": "https://qedartifacts.org/pharmaceuticals/",
+      "repository": "https://github.com/qed-artifacts/pharmaceuticals",
+      "appCatalog": "https://qedartifacts.org/pharmaceuticals/apps/catalog.json"
+    },
+    {
+      "id": "qed-domain-psychometrics-and-metrology",
+      "slug": "psychometrics-and-metrology",
+      "portalNumber": "17",
+      "name": "Psychometrics and Metrology",
+      "summary": "Constructs, measurement, calibration, validity, uncertainty, interpretation, and use.",
+      "dimensions": [
+        "Constructs and measurement",
+        "Calibration, validity, and uncertainty",
+        "Interpretation and use"
+      ],
+      "sourceSignals": [
+        "Academic_Psychometrics and Metrology"
+      ],
+      "scopeStatus": "provisional",
+      "stage": "seed",
+      "site": "https://qedartifacts.org/psychometrics-and-metrology/",
+      "repository": "https://github.com/qed-artifacts/psychometrics-and-metrology",
+      "appCatalog": "https://qedartifacts.org/psychometrics-and-metrology/apps/catalog.json"
+    },
+    {
+      "id": "qed-domain-public-administration-and-government",
+      "slug": "public-administration-and-government",
+      "portalNumber": "18",
+      "name": "Public Administration and Government",
+      "summary": "Institutions, authority, administration, public value, accountability, implementation, and trust.",
+      "dimensions": [
+        "Institutions and authority",
+        "Administration and implementation",
+        "Public value, accountability, and trust"
+      ],
+      "sourceSignals": [
+        "Academic_Public Admin and Government"
+      ],
+      "scopeStatus": "provisional",
+      "stage": "seed",
+      "site": "https://qedartifacts.org/public-administration-and-government/",
+      "repository": "https://github.com/qed-artifacts/public-administration-and-government",
+      "appCatalog": "https://qedartifacts.org/public-administration-and-government/apps/catalog.json"
+    },
+    {
+      "id": "qed-domain-quality-management",
+      "slug": "quality-management",
+      "portalNumber": "19",
+      "name": "Quality Management",
+      "summary": "Quality concepts, systems, improvement, assurance, governance, learning, and performance.",
+      "dimensions": [
+        "Concepts and systems",
+        "Improvement and assurance",
+        "Governance, learning, and performance"
+      ],
+      "sourceSignals": [
+        "Academic_Quality Management"
+      ],
+      "scopeStatus": "provisional",
+      "stage": "seed",
+      "site": "https://qedartifacts.org/quality-management/",
+      "repository": "https://github.com/qed-artifacts/quality-management",
+      "appCatalog": "https://qedartifacts.org/quality-management/apps/catalog.json"
+    },
+    {
+      "id": "qed-domain-reliability-engineering",
+      "slug": "reliability-engineering",
+      "portalNumber": "20",
+      "name": "Reliability Engineering",
+      "summary": "Requirements, failure, dependability, risk, maintenance, resilience, and lifecycle evidence.",
+      "dimensions": [
+        "Requirements and failure",
+        "Dependability, risk, and maintenance",
+        "Resilience and lifecycle evidence"
+      ],
+      "sourceSignals": [
+        "Academic_Reliability Engineering"
+      ],
+      "scopeStatus": "provisional",
+      "stage": "seed",
+      "site": "https://qedartifacts.org/reliability-engineering/",
+      "repository": "https://github.com/qed-artifacts/reliability-engineering",
+      "appCatalog": "https://qedartifacts.org/reliability-engineering/apps/catalog.json"
+    },
+    {
+      "id": "qed-domain-rhetoric-and-communication",
+      "slug": "rhetoric-and-communication",
+      "portalNumber": "21",
+      "name": "Rhetoric and Communication",
+      "summary": "Meaning, argument, expression, audiences, media, interpretation, and effects.",
+      "dimensions": [
+        "Meaning and argument",
+        "Expression, audiences, and media",
+        "Interpretation and effects"
+      ],
+      "sourceSignals": [
+        "Academic_Rhetoric and Communication"
+      ],
+      "scopeStatus": "provisional",
+      "stage": "seed",
+      "site": "https://qedartifacts.org/rhetoric-and-communication/",
+      "repository": "https://github.com/qed-artifacts/rhetoric-and-communication",
+      "appCatalog": "https://qedartifacts.org/rhetoric-and-communication/apps/catalog.json"
+    },
+    {
+      "id": "qed-domain-sensory-science",
+      "slug": "sensory-science",
+      "portalNumber": "22",
+      "name": "Sensory Science",
+      "summary": "Perception, measurement, panel practice, experience, products, context, and interpretation.",
+      "dimensions": [
+        "Perception and experience",
+        "Measurement and panel practice",
+        "Products, context, and interpretation"
+      ],
+      "sourceSignals": [
+        "Academic_Sensory Science"
+      ],
+      "scopeStatus": "provisional",
+      "stage": "seed",
+      "site": "https://qedartifacts.org/sensory-science/",
+      "repository": "https://github.com/qed-artifacts/sensory-science",
+      "appCatalog": "https://qedartifacts.org/sensory-science/apps/catalog.json"
+    },
+    {
+      "id": "qed-domain-service-and-marketing",
+      "slug": "service-and-marketing",
+      "portalNumber": "23",
+      "name": "Service and Marketing",
+      "summary": "Needs, value propositions, experience, delivery, relationships, markets, and consequences.",
+      "dimensions": [
+        "Needs and value propositions",
+        "Experience and delivery",
+        "Relationships, markets, and consequences"
+      ],
+      "sourceSignals": [
+        "Academic_Service and Marketing"
+      ],
+      "scopeStatus": "provisional",
+      "stage": "seed",
+      "site": "https://qedartifacts.org/service-and-marketing/",
+      "repository": "https://github.com/qed-artifacts/service-and-marketing",
+      "appCatalog": "https://qedartifacts.org/service-and-marketing/apps/catalog.json"
+    },
+    {
+      "id": "qed-domain-social-work-and-human-services",
+      "slug": "social-work-and-human-services",
+      "portalNumber": "24",
+      "name": "Social Work and Human Services",
+      "summary": "People, needs, services, ethics, systems, outcomes, equity, and community wellbeing.",
+      "dimensions": [
+        "People, needs, and ethics",
+        "Services and systems",
+        "Outcomes, equity, and wellbeing"
+      ],
+      "sourceSignals": [
+        "Academic_Social Work and Human Services"
+      ],
+      "scopeStatus": "provisional",
+      "stage": "seed",
+      "site": "https://qedartifacts.org/social-work-and-human-services/",
+      "repository": "https://github.com/qed-artifacts/social-work-and-human-services",
+      "appCatalog": "https://qedartifacts.org/social-work-and-human-services/apps/catalog.json"
+    },
+    {
+      "id": "qed-domain-software",
+      "slug": "software",
+      "portalNumber": "25",
+      "name": "Software",
+      "summary": "Requirements, design, implementation, verification, operations, users, and maintainability.",
+      "dimensions": [
+        "Requirements and design",
+        "Implementation and verification",
+        "Operations, users, and maintainability"
+      ],
+      "sourceSignals": [
+        "Academic_Software"
+      ],
+      "scopeStatus": "provisional",
+      "stage": "seed",
+      "site": "https://qedartifacts.org/software/",
+      "repository": "https://github.com/qed-artifacts/software",
+      "appCatalog": "https://qedartifacts.org/software/apps/catalog.json"
+    },
+    {
+      "id": "qed-domain-federal-laws-and-regulations",
+      "slug": "federal-laws-and-regulations",
+      "portalNumber": "26",
+      "name": "Federal Laws and Regulations",
+      "summary": "Authorities, requirements, interpretation, compliance, administration, and public consequences.",
+      "dimensions": [
+        "Authorities and requirements",
+        "Interpretation and compliance",
+        "Administration and public consequences"
+      ],
+      "sourceSignals": [
+        "Professional_Federal Laws and Regulations"
+      ],
+      "scopeStatus": "provisional",
+      "stage": "seed",
+      "site": "https://qedartifacts.org/federal-laws-and-regulations/",
+      "repository": "https://github.com/qed-artifacts/federal-laws-and-regulations",
+      "appCatalog": "https://qedartifacts.org/federal-laws-and-regulations/apps/catalog.json"
+    },
+    {
+      "id": "qed-domain-standards-and-benchmarks",
+      "slug": "standards-and-benchmarks",
+      "portalNumber": "27",
+      "name": "Standards and Benchmarks",
+      "summary": "Standardization, specifications, conformity, comparison, adoption, interoperability, and effects.",
+      "dimensions": [
+        "Standardization and specifications",
+        "Conformity and comparison",
+        "Adoption, interoperability, and effects"
+      ],
+      "sourceSignals": [
+        "Professional_Standardizers and Benchmarks"
+      ],
+      "scopeStatus": "provisional",
+      "stage": "seed",
+      "site": "https://qedartifacts.org/standards-and-benchmarks/",
+      "repository": "https://github.com/qed-artifacts/standards-and-benchmarks",
+      "appCatalog": "https://qedartifacts.org/standards-and-benchmarks/apps/catalog.json"
     }
-  ]
+  ],
+  "taxonomy": {
+    "status": "provisional",
+    "legacySourceFoldersAreSignalsNotAuthority": true,
+    "allowedTransitions": [
+      "refine",
+      "split",
+      "merge",
+      "nest",
+      "deprecate-with-redirect"
+    ],
+    "stableIdentifiersRequired": true,
+    "note": "Repository boundaries are revisable release boundaries, not claims that domains are permanent or mutually exclusive."
+  }
 }
-

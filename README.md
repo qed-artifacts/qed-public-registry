@@ -11,9 +11,15 @@ public discovery, not for confidential records or access control.
 
 - `architecture-state.json` — current public architecture and system roles.
 - `registry.json` — domains and public endpoints.
+- `domain-seeds.json` — provisional source-corpus signals used to scaffold new
+  portals without treating legacy folders as a permanent taxonomy.
 - `information-classes.json` — placement and handling rules.
 - `publication-policy.md` — controlled path from restricted work to public release.
 - `scripts/validate.mjs` — dependency-free contract and link validation.
+
+Domain transitions are explicit: a portal may be refined, split, merged, nested,
+or deprecated with a maintained redirect. Stable identifiers and the registry
+preserve discovery when repository boundaries change.
 
 Restricted materials may be represented by a deliberately minimal public record
 with an opaque identifier, public summary, restriction category, steward role,
@@ -21,4 +27,3 @@ and review date. Internal locations and security details are never published.
 
 Public visibility does not itself grant a reuse license. Licenses must be stated
 explicitly on the specific code, content, dataset, or artifact.
-
