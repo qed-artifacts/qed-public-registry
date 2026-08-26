@@ -3,6 +3,7 @@ import fs from "node:fs/promises";
 const registry = JSON.parse(await fs.readFile("registry.json", "utf8"));
 const seeds = JSON.parse(await fs.readFile("domain-seeds.json", "utf8"));
 const existing = new Map(registry.domains.map((domain) => [domain.slug, domain]));
+for (const slug of seeds.invalidatedDomainSlugs ?? []) existing.delete(slug);
 const foundations = {
   "higher-education": {portalNumber: "01", summary: "Learning, institutions, systems, outcomes, and public value.", dimensions: ["Learning and formation", "Institutions and systems", "Outcomes and public value"], sourceSignals: ["Academic_Higher Education"]},
   "quality-of-life": {portalNumber: "02", summary: "Conditions, capabilities, lived experience, measures, and consequences.", dimensions: ["Lived experience", "Conditions and capabilities", "Measurement and consequences"], sourceSignals: ["Academic_Quality of Life"]},
@@ -35,9 +36,7 @@ const sourceSignalBySlug = {
   "sensory-science": "Academic_Sensory Science",
   "service-and-marketing": "Academic_Service and Marketing",
   "social-work-and-human-services": "Academic_Social Work and Human Services",
-  "software": "Academic_Software",
-  "federal-laws-and-regulations": "Professional_Federal Laws and Regulations",
-  "standards-and-benchmarks": "Professional_Standardizers and Benchmarks"
+  "software": "Academic_Software"
 };
 
 for (const seed of seeds.domains) {
@@ -59,6 +58,7 @@ for (const seed of seeds.domains) {
 
 registry.updated = "2026-08-26";
 registry.taxonomy = seeds.taxonomy;
+registry.evidenceLayers = seeds.evidenceLayers;
 registry.domains = [...existing.values()].sort((a, b) => (a.portalNumber ?? "99").localeCompare(b.portalNumber ?? "99"));
 await fs.writeFile("registry.json", `${JSON.stringify(registry, null, 2)}\n`);
 const architecture = JSON.parse(await fs.readFile("architecture-state.json", "utf8"));

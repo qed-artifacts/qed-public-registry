@@ -7,6 +7,23 @@
     "stableIdentifiersRequired": true,
     "note": "Repository boundaries are revisable release boundaries, not claims that domains are permanent or mutually exclusive."
   },
+  "invalidatedDomainSlugs": ["federal-laws-and-regulations", "standards-and-benchmarks"],
+  "evidenceLayers": [
+    {
+      "id": "professional-federal-laws-and-regulations",
+      "name": "Federal laws and regulations",
+      "sourceSignal": "Professional_Federal Laws and Regulations",
+      "role": "cross-domain professional evidence overlay",
+      "producesDomainPortal": false
+    },
+    {
+      "id": "professional-standards-and-benchmarks",
+      "name": "Standards and benchmarks",
+      "sourceSignal": "Professional_Standardizers and Benchmarks",
+      "role": "cross-domain professional evidence overlay",
+      "producesDomainPortal": false
+    }
+  ],
   "domains": [
     {"slug":"aesthetics-and-fine-arts","portalNumber":"04","name":"Aesthetics and the Fine Arts","summary":"Aesthetic value, experience, interpretation, creation, institutions, and publics.","dimensions":["Experience and value","Creation and interpretation","Institutions and publics"],"sourceSignals":["Academic_Aesthetics and the Fine Arts"]},
     {"slug":"ai-and-machine-learning","portalNumber":"05","name":"AI and Machine Learning","summary":"Data, models, human judgment, validation, impacts, and governance.","dimensions":["Data and models","Human judgment and validation","Impacts and governance"],"sourceSignals":["Academic_AI and Machine Learning"]},
@@ -29,8 +46,6 @@
     {"slug":"sensory-science","portalNumber":"22","name":"Sensory Science","summary":"Perception, measurement, panel practice, experience, products, context, and interpretation.","dimensions":["Perception and experience","Measurement and panel practice","Products, context, and interpretation"]},
     {"slug":"service-and-marketing","portalNumber":"23","name":"Service and Marketing","summary":"Needs, value propositions, experience, delivery, relationships, markets, and consequences.","dimensions":["Needs and value propositions","Experience and delivery","Relationships, markets, and consequences"]},
     {"slug":"social-work-and-human-services","portalNumber":"24","name":"Social Work and Human Services","summary":"People, needs, services, ethics, systems, outcomes, equity, and community wellbeing.","dimensions":["People, needs, and ethics","Services and systems","Outcomes, equity, and wellbeing"]},
-    {"slug":"software","portalNumber":"25","name":"Software","summary":"Requirements, design, implementation, verification, operations, users, and maintainability.","dimensions":["Requirements and design","Implementation and verification","Operations, users, and maintainability"]},
-    {"slug":"federal-laws-and-regulations","portalNumber":"26","name":"Federal Laws and Regulations","summary":"Authorities, requirements, interpretation, compliance, administration, and public consequences.","dimensions":["Authorities and requirements","Interpretation and compliance","Administration and public consequences"]},
-    {"slug":"standards-and-benchmarks","portalNumber":"27","name":"Standards and Benchmarks","summary":"Standardization, specifications, conformity, comparison, adoption, interoperability, and effects.","dimensions":["Standardization and specifications","Conformity and comparison","Adoption, interoperability, and effects"]}
+    {"slug":"software","portalNumber":"25","name":"Software","summary":"Requirements, design, implementation, verification, operations, users, and maintainability.","dimensions":["Requirements and design","Implementation and verification","Operations, users, and maintainability"]}
   ]
 }

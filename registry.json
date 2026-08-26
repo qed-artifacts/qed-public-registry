@@ -501,46 +501,6 @@
       "site": "https://qedartifacts.org/software/",
       "repository": "https://github.com/qed-artifacts/software",
       "appCatalog": "https://qedartifacts.org/software/apps/catalog.json"
-    },
-    {
-      "id": "qed-domain-federal-laws-and-regulations",
-      "slug": "federal-laws-and-regulations",
-      "portalNumber": "26",
-      "name": "Federal Laws and Regulations",
-      "summary": "Authorities, requirements, interpretation, compliance, administration, and public consequences.",
-      "dimensions": [
-        "Authorities and requirements",
-        "Interpretation and compliance",
-        "Administration and public consequences"
-      ],
-      "sourceSignals": [
-        "Professional_Federal Laws and Regulations"
-      ],
-      "scopeStatus": "provisional",
-      "stage": "seed",
-      "site": "https://qedartifacts.org/federal-laws-and-regulations/",
-      "repository": "https://github.com/qed-artifacts/federal-laws-and-regulations",
-      "appCatalog": "https://qedartifacts.org/federal-laws-and-regulations/apps/catalog.json"
-    },
-    {
-      "id": "qed-domain-standards-and-benchmarks",
-      "slug": "standards-and-benchmarks",
-      "portalNumber": "27",
-      "name": "Standards and Benchmarks",
-      "summary": "Standardization, specifications, conformity, comparison, adoption, interoperability, and effects.",
-      "dimensions": [
-        "Standardization and specifications",
-        "Conformity and comparison",
-        "Adoption, interoperability, and effects"
-      ],
-      "sourceSignals": [
-        "Professional_Standardizers and Benchmarks"
-      ],
-      "scopeStatus": "provisional",
-      "stage": "seed",
-      "site": "https://qedartifacts.org/standards-and-benchmarks/",
-      "repository": "https://github.com/qed-artifacts/standards-and-benchmarks",
-      "appCatalog": "https://qedartifacts.org/standards-and-benchmarks/apps/catalog.json"
     }
   ],
   "taxonomy": {
@@ -555,5 +515,21 @@
     ],
     "stableIdentifiersRequired": true,
     "note": "Repository boundaries are revisable release boundaries, not claims that domains are permanent or mutually exclusive."
-  }
+  },
+  "evidenceLayers": [
+    {
+      "id": "professional-federal-laws-and-regulations",
+      "name": "Federal laws and regulations",
+      "sourceSignal": "Professional_Federal Laws and Regulations",
+      "role": "cross-domain professional evidence overlay",
+      "producesDomainPortal": false
+    },
+    {
+      "id": "professional-standards-and-benchmarks",
+      "name": "Standards and benchmarks",
+      "sourceSignal": "Professional_Standardizers and Benchmarks",
+      "role": "cross-domain professional evidence overlay",
+      "producesDomainPortal": false
+    }
+  ]
 }

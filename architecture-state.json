@@ -164,16 +164,6 @@
       "name": "software",
       "role": "domain-configuration",
       "visibility": "public"
-    },
-    {
-      "name": "federal-laws-and-regulations",
-      "role": "domain-configuration",
-      "visibility": "public"
-    },
-    {
-      "name": "standards-and-benchmarks",
-      "role": "domain-configuration",
-      "visibility": "public"
     }
   ],
   "accessModel": {
