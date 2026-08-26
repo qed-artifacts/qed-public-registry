@@ -25,7 +25,6 @@ Recommended boundaries:
 5. **Volunteer Workspaces** — dormant until needed; no inherited access to the
    four areas above.
 
-The existing QED-AI SharePoint document library currently exposes an inherited
-tenant-wide principal. Confidential migration must wait until the Board-only
-boundary is confirmed and tested with a non-Board account.
-
+Confidential migration must wait until the Board-only boundary is confirmed and
+tested with a non-Board account. Internal permission findings belong in the
+restricted implementation record, not in this public registry.
