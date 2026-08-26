@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-08-26",
+  "domains": [
+    {
+      "id": "qed-domain-higher-education",
+      "slug": "higher-education",
+      "name": "Higher Education",
+      "scopeStatus": "provisional",
+      "site": "https://qedartifacts.org/higher-education/",
+      "repository": "https://github.com/qed-artifacts/higher-education",
+      "appCatalog": "https://qedartifacts.org/higher-education/apps/catalog.json"
+    },
+    {
+      "id": "qed-domain-quality-of-life",
+      "slug": "quality-of-life",
+      "name": "Quality of Life",
+      "scopeStatus": "provisional",
+      "site": "https://qedartifacts.org/quality-of-life/",
+      "repository": "https://github.com/qed-artifacts/quality-of-life",
+      "appCatalog": "https://qedartifacts.org/quality-of-life/apps/catalog.json"
+    },
+    {
+      "id": "qed-domain-healthcare",
+      "slug": "healthcare",
+      "name": "Healthcare",
+      "scopeStatus": "provisional",
+      "site": "https://qedartifacts.org/healthcare/",
+      "repository": "https://github.com/qed-artifacts/healthcare",
+      "appCatalog": "https://qedartifacts.org/healthcare/apps/catalog.json"
+    }
+  ]
+}
+

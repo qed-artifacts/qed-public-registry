@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "classes": [
+    {
+      "id": "public",
+      "description": "Approved for unrestricted disclosure.",
+      "primarySystem": "github-public",
+      "examples": ["public websites", "open code", "approved policies", "public metadata", "released artifacts"]
+    },
+    {
+      "id": "internal",
+      "description": "Ordinary organizational working material not approved for public release.",
+      "primarySystem": "sharepoint-internal",
+      "examples": ["working drafts", "internal planning", "publication staging"]
+    },
+    {
+      "id": "confidential",
+      "description": "Material limited to the Board or a specifically authorized internal group.",
+      "primarySystem": "sharepoint-board-restricted",
+      "examples": ["board evidence", "contracts", "personal information", "sensitive correspondence"]
+    },
+    {
+      "id": "restricted-source",
+      "description": "Copyrighted, licensed, or otherwise non-public source content retained for legitimate organizational use.",
+      "primarySystem": "sharepoint-research-vault",
+      "examples": ["licensed publications", "full-text corpora", "non-public preprocessing chunks"]
+    },
+    {
+      "id": "secret",
+      "description": "Credentials or cryptographic material requiring a managed secret store.",
+      "primarySystem": "managed-secret-store",
+      "examples": ["passwords", "API tokens", "private keys", "recovery codes"]
+    }
+  ]
+}
+

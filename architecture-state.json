@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-08-26",
+  "organization": {
+    "id": "qed-ai",
+    "legalName": "Quality Evaluation and Disposition Artifacts Institute",
+    "publicName": "QED Artifacts Institute",
+    "githubOrganization": "qed-artifacts",
+    "website": "https://qedartifacts.org/",
+    "federalTaxStatus": "recognition-pending"
+  },
+  "architecture": {
+    "model": "federated-configuration-driven",
+    "publicControlPlane": "qed-artifacts/qed-public-platform",
+    "publicRegistry": "qed-artifacts/qed-public-registry",
+    "publicDelivery": "github-pages",
+    "restrictedSystemOfRecord": "microsoft-sharepoint",
+    "individualWorkingStorage": "microsoft-onedrive",
+    "secretStorage": "managed-secret-store",
+    "publicationDirection": "restricted-to-public-one-way-with-human-approval"
+  },
+  "repositories": [
+    {"name": ".github", "role": "organization-policy", "visibility": "public"},
+    {"name": "qed-artifacts.github.io", "role": "public-home", "visibility": "public"},
+    {"name": "qed-public-platform", "role": "shared-renderer-and-workflows", "visibility": "public"},
+    {"name": "qed-public-registry", "role": "public-discovery-and-state", "visibility": "public"},
+    {"name": "higher-education", "role": "domain-configuration", "visibility": "public"},
+    {"name": "quality-of-life", "role": "domain-configuration", "visibility": "public"},
+    {"name": "healthcare", "role": "domain-configuration", "visibility": "public"}
+  ],
+  "accessModel": {
+    "currentInternalUsers": "board-only",
+    "boardAccess": "all-internal-areas",
+    "futureVolunteerAccess": "separate-controlled-workspaces-no-inherited-confidential-access"
+  }
+}
+
