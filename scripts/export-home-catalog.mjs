@@ -11,7 +11,9 @@ const catalog = {
   schemaVersion: registry.schemaVersion,
   updated: registry.updated,
   taxonomy: registry.taxonomy,
-  domains: registry.domains.map(({portalNumber, slug, name, summary, scopeStatus, stage, site, repository}) => ({portalNumber, slug, name, summary, scopeStatus, stage, site, repository}))
+  domains: registry.domains
+    .map(({portalNumber, slug, name, summary, scopeStatus, stage, site, repository}) => ({portalNumber, slug, name, summary, scopeStatus, stage, site, repository}))
+    .sort((left, right) => left.name.localeCompare(right.name, "en", {sensitivity: "base"}))
 };
 await fs.writeFile(output, `${JSON.stringify(catalog, null, 2)}\n`);
 if (sitemapIndex >= 0 && process.argv[sitemapIndex + 1]) {
